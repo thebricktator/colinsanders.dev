@@ -209,7 +209,7 @@ export default function Home() {
                 Engineers need to define rules for how findings get classified and routed,
                 and test those rules before they go live. I&apos;ve built interpreters and
                 execution engines for custom rule languages and scanning platforms, and preview systems that simulate
-                rule changes against production data.
+                rule changes against petabyte-scale production data.
               </p>
             </div>
 
@@ -221,7 +221,7 @@ export default function Home() {
                 When a vulnerability shows up, it is critical to figure out who owns the affected
                 system and whether it&apos;s exploitable in context. I built MCP tools that
                 augment and enhance this research, searching internal documentation and ticket history to
-                find ownership and assess exploitability.
+                find ownership and assess exploitability. Human processes that took weeks are converging on seconds.
               </p>
             </div>
 
