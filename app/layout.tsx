@@ -10,6 +10,17 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Colin Sanders",
   description: "Senior engineer at Amazon building high-scale infrastructure and AI tooling. Shipping products on the side.",
+  metadataBase: new URL("https://colinsanders.dev"),
+  openGraph: {
+    title: "Colin Sanders",
+    description: "Senior engineer at Amazon building high-scale infrastructure and AI tooling. Shipping products on the side.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Colin Sanders",
+    description: "Senior engineer at Amazon building high-scale infrastructure and AI tooling. Shipping products on the side.",
+  },
 };
 
 export default function RootLayout({
