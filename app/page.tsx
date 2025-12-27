@@ -196,7 +196,7 @@ export default function Home() {
               </h3>
               <p className="text-muted leading-relaxed">
                 Security signals come from everywhere: host agents, network scanners, container monitoring,
-                cloud configuration, network telemetry, access management changes. The systems I build ingest millions of these signals,
+                cloud configuration, network telemetry, access management changes. The systems I build ingest millions of these signals per second,
                 enable security engineers to precisely assess risk in real time, and route it to the teams responsible.
               </p>
             </div>
