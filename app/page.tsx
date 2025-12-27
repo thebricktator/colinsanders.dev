@@ -269,31 +269,50 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-12 px-6 md:px-16 lg:px-24 border-t border-border">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <p className="text-muted text-sm">Colin Sanders</p>
-          <div className="flex gap-6 text-sm">
-            <a
-              href="mailto:colinsandersdev@outlook.com"
-              className="text-muted hover:text-accent transition-colors duration-200"
-            >
-              Email
-            </a>
-            <a
-              href="https://linkedin.com/in/colin-c-sanders"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted hover:text-accent transition-colors duration-200"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://github.com/CCSanders"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted hover:text-accent transition-colors duration-200"
-            >
-              GitHub
-            </a>
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+            <p className="text-muted text-sm">Colin Sanders</p>
+            <div className="flex gap-6 text-sm">
+              <a
+                href="mailto:colinsandersdev@outlook.com"
+                className="text-muted hover:text-accent transition-colors duration-200"
+              >
+                Email
+              </a>
+              <a
+                href="https://linkedin.com/in/colin-c-sanders"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-accent transition-colors duration-200"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/CCSanders"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-accent transition-colors duration-200"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 pt-6 border-t border-border">
+            <p className="text-muted/60 text-xs">
+              All opinions are my own and not representative of any employer.
+            </p>
+            <p className="text-muted/60 text-xs">
+              Made with{" "}
+              <a
+                href="https://claude.com/claude-code"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent/70 hover:text-accent transition-colors duration-200"
+              >
+                Claude Code
+              </a>
+              {" "}(Opus 4.5)
+            </p>
           </div>
         </div>
       </footer>
