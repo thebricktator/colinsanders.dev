@@ -31,8 +31,8 @@ export default function Home() {
             <span className="text-accent">Colin</span> Sanders
           </h1>
           <p className="text-xl md:text-2xl text-muted mb-6 max-w-2xl animate-fade-in-delay-1">
-            Senior engineer at Amazon building high-scale infrastructure and AI tooling.
-            Shipping products on the side.
+            Senior engineer at AWS building the software that qualifies every server
+            entering EC2&apos;s fleet. Shipping products on the side.
           </p>
           <div className="flex flex-wrap gap-6 text-sm font-medium animate-fade-in-delay-2">
             <a
@@ -44,7 +44,7 @@ export default function Home() {
               LinkedIn
             </a>
             <a
-              href="https://github.com/CCSanders"
+              href="https://github.com/thebricktator"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted hover:text-accent transition-colors duration-200"
@@ -52,10 +52,10 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="mailto:colinsandersdev@outlook.com"
+              href="mailto:colin@colinsanders.dev"
               className="text-muted hover:text-accent transition-colors duration-200"
             >
-              colinsandersdev@outlook.com
+              colin@colinsanders.dev
             </a>
           </div>
         </div>
@@ -184,20 +184,50 @@ export default function Home() {
             Experience
           </h2>
           <p className="text-muted mb-14 max-w-2xl">
-            Senior engineer at Amazon, currently in the vulnerability management org.
-            I build systems that route security vulnerabilities to the right owners with
-            enough context to act on them.
+            Senior engineer at Amazon, currently in AWS Hardware Engineering.
+            I build the automated testing that gates every server on its way into
+            EC2&apos;s fleet.
           </p>
 
           <div className="grid gap-12">
+            <div>
+              <h3 className="text-lg font-semibold text-accent-soft mb-3">
+                Datacenter fleet qualification
+              </h3>
+              <p className="text-muted mb-5 leading-relaxed">
+                I work in AWS Hardware Engineering on the software that qualifies server
+                hardware for EC2&apos;s global fleet &mdash; automated testing that gates every
+                host through the landing lifecycle, from the manufacturing line to the
+                datacenter to sellable capacity, including AI/hyperscaler platforms.
+              </p>
+              <p className="text-muted leading-relaxed">
+                Recent work: compute-test optimizations returning 2,000+ host-hours/month
+                to sellable capacity, continuous machine-health monitoring across the fleet,
+                and AI-powered observability tracing any code change to the hardware running
+                it across a multi-million-server fleet. I also author and review company-wide
+                AI agent skills for hardware debugging, deployment tracking, and ODM host flashing.
+              </p>
+            </div>
+
+            <div className="pt-8 border-t border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">
+                Previously: Amazon Security
+              </h3>
+              <p className="text-muted leading-relaxed">
+                Sept 2024 &ndash; Feb 2026, in the vulnerability management org. I built
+                systems that routed security vulnerabilities to the right owners with enough
+                context to act on them.
+              </p>
+            </div>
+
             <div>
               <h3 className="text-lg font-semibold text-accent-soft mb-3">
                 High-throughput data infrastructure
               </h3>
               <p className="text-muted leading-relaxed">
                 Security signals come from everywhere: host agents, network scanners, container monitoring,
-                cloud configuration, network telemetry, access management changes. The systems I build ingest millions of these signals per second,
-                enable security engineers to precisely assess risk in real time, and route it to the teams responsible.
+                cloud configuration, network telemetry, access management changes. The systems I built ingested millions of these signals per second,
+                enabled security engineers to precisely assess risk in real time, and routed it to the teams responsible.
               </p>
             </div>
 
@@ -206,9 +236,9 @@ export default function Home() {
                 Developer tooling and rule engines
               </h3>
               <p className="text-muted leading-relaxed">
-                Engineers need to define rules for how findings get classified and routed,
-                and test those rules before they go live. I&apos;ve built interpreters and
-                execution engines for custom rule languages and scanning platforms, and preview systems that simulate
+                Engineers needed to define rules for how findings got classified and routed,
+                and test those rules before they went live. I built interpreters and
+                execution engines for custom rule languages and scanning platforms, and preview systems that simulated
                 rule changes against petabyte-scale production data.
               </p>
             </div>
@@ -218,10 +248,10 @@ export default function Home() {
                 AI-assisted operations
               </h3>
               <p className="text-muted leading-relaxed">
-                When a vulnerability shows up, it is critical to figure out who owns the affected
-                system and whether it&apos;s exploitable in context. I built MCP tools that
-                augment and enhance this research, searching internal documentation and ticket history to
-                find ownership and assess exploitability. Human processes that took weeks are converging on seconds.
+                When a vulnerability showed up, it was critical to figure out who owned the affected
+                system and whether it was exploitable in context. I built MCP tools that
+                augmented and enhanced this research, searching internal documentation and ticket history to
+                find ownership and assess exploitability. Human processes that took weeks converged on seconds.
               </p>
             </div>
 
@@ -248,9 +278,18 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6 text-muted">
               <p className="leading-relaxed">
-                Based in Seattle. At Amazon, I lead an engineering team and review MCP tooling
-                for the broader GenAI community. I also run workshops on AI-accelerated
-                development.
+                Based in Seattle. At Amazon, I author and review company-wide AI agent skills
+                and run workshops on AI-accelerated development. I also serve on Seattle&apos;s{" "}
+                <a
+                  href="https://seattle.gov/community-technology-advisory-board/who-we-are"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-soft hover:text-accent transition-colors duration-200"
+                >
+                  Community Technology Advisory Board
+                </a>
+                , advising the Mayor and City Council on digital equity, privacy, and
+                municipal cybersecurity policy.
               </p>
               <p className="leading-relaxed">
                 Outside of work: published author, currently learning Mandarin, and
@@ -274,7 +313,7 @@ export default function Home() {
             <p className="text-muted text-sm">Colin Sanders</p>
             <div className="flex gap-6 text-sm">
               <a
-                href="mailto:colinsandersdev@outlook.com"
+                href="mailto:colin@colinsanders.dev"
                 className="text-muted hover:text-accent transition-colors duration-200"
               >
                 Email
@@ -288,7 +327,7 @@ export default function Home() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/CCSanders"
+                href="https://github.com/thebricktator"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted hover:text-accent transition-colors duration-200"

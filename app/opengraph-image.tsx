@@ -44,8 +44,8 @@ export default async function Image() {
             lineHeight: 1.4,
           }}
         >
-          Senior engineer at Amazon building high-scale infrastructure and AI
-          tooling. Shipping products on the side.
+          Senior engineer at AWS building the software that qualifies every server
+          entering EC2&apos;s fleet. Shipping products on the side.
         </div>
       </div>
     ),
