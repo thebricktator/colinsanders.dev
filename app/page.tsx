@@ -338,7 +338,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 pt-6 border-t border-border">
             <p className="text-muted/60 text-xs">
-              All opinions are my own and not representative of any employer.
+              All opinions are my own and not representative of any employer or
+              the City of Seattle.
             </p>
             <p className="text-muted/60 text-xs">
               Made with{" "}
